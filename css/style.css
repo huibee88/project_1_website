@@ -1,0 +1,1125 @@
+/* general body and heading css */
+
+html, body{
+	height: 100%;
+	font-family: 'Saira Condensed', sans-serif;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0;
+	font-weight: 600px;
+}
+
+h1{
+	font-size: 4.375rem;
+}
+
+h2{
+	font-size: 2.25rem;
+}
+
+h3{
+	font-size: 1.875rem;
+}
+
+h4{
+	font-size: 1.5rem;
+}
+
+h5{
+	font-size: 1.125rem;
+}
+
+h6{
+	font-size: 1rem;
+}
+
+p{
+	font-size: 0.875rem;
+	line-height: 2;
+}
+
+img{
+	max-width: 100%;
+}
+
+a:hover,
+a:focus{
+	text-decoration: none;
+	outline: none;
+	font-size: 1.2rem;
+	opacity: 1.2;
+}
+
+.spad{
+	padding-top: 105px;
+	padding-bottom: 105px;
+}
+
+/*-------------
+Header Section
+-------------*/
+
+.header-section{
+	background: #B4DFE5;
+	border-radius: 0px 0px 15px 15px;
+	position: fixed;
+	width: 100%;
+	height: auto;
+	padding: 10.5px 10px;
+	z-index: 99;
+}
+
+nav{
+	display: flex;
+	padding: 0 3%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.site-logo img{
+	width: 15rem;
+}
+
+.nav-wrap{
+	float: right;
+}
+
+.main-menu{
+	flex: 1;
+	text-align: center;
+}
+
+.main-menu li{
+	list-style: none;
+	display: inline-block;
+	padding: 15px 15px 1px 30px;
+	position: relative;
+}
+
+.main-menu li a{
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #303c6c;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	text-decoration: none;
+}
+
+.main-menu li a:hover, .dropdown:hover .dropbtn{
+	color: #f4976c;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+li.dropdown{
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+  	position: absolute;
+  	margin-left: -50px;
+  	background-color: #f9f9f9;
+  	min-width: 180px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+}
+
+.main-menu .dropdown-content a {
+	padding: 10px;
+	font-size: 1rem;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  	display: block;
+}
+
+.nav-switch{
+	display: none;
+}
+
+.nav-switch:hover{
+	color: #f4976c;
+}
+
+/*-------------
+Info Section
+-------------*/
+.info-section{
+	width: 100%;
+	height: auto;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.info-section img{
+	width: 100%;
+	margin-top: 82.5px;
+	border: 3px solid #303C6C;
+	border-radius: 35px;
+	z-index: -1;
+}
+
+.info-section h2{
+	position: relative;
+	width: 221px;
+	height: 186px;
+	margin: -480px 0 100px 55px;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 1.25;
+	color: #FFFFFF;
+	z-index: 1;
+}
+
+.title-name img{
+	position: relative;
+	border: none;
+	width: 176px;
+	height: 176px;
+	margin: 0 0 0 55px;
+	z-index: 1;
+}
+
+.info-section .info-content h2{
+	width: 400px;
+	margin: -360px 0 0 160px;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	color: #303C6C;
+}
+
+.info-section .info-content p{
+	width: 480px;
+	margin: -120px 0 0 160px;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 34px;
+	color: #303C6C;
+	padding: 10px 0;
+}
+
+
+/*-------------
+Option Section
+-------------*/
+.option-section{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.option-section .section-title{
+	position: relative;
+	margin-top: 50px;
+	margin-left: 130px;
+	display: inline-block;
+}
+
+.option-section .icon-bg{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	font-size: 55px;
+	text-align: center;
+	background: #303C6C;
+	float: left;
+}
+
+.option-section .icon-bg .fa-spin{
+	color: #fff;
+	font-size: 50px;
+}
+
+.option-section .section-title h2{
+	width: 900px;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 44px;
+	letter-spacing: 0.05em;
+	color: #303c6c;
+	margin-top: -60px;
+	margin-left: 60px;
+}
+
+.option-section .feature-item{
+	position: relative;
+	text-align: center;
+	margin: 80px 25px 0 55px;
+}
+
+.option-section .item-box{
+	max-width: 300px;
+	padding: 20px 0;
+	background: #FFFFFF;
+	border: 3px solid #303C6C;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 41px;
+	cursor: pointer;
+}
+
+.option-section .feature-item:hover{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);	
+}
+
+.option-section .feature-item h4{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 34px;
+	color: #303c6c;
+}
+
+.option-section .feature-item p{
+	color: #303c6c;
+}
+
+.option-section .feature-item .ft-icon{
+	padding-bottom: 5px;
+	color: #303c6c;
+}
+
+/*-------------
+Campus Section
+-------------*/
+.campus-section{
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: inline-block;
+	margin-top: 100px;
+}
+
+.campus-section .campus-img img{
+	width: 1061px;
+	height: 223px;
+	margin: 0 32.5px 0 42.5px;
+	border: 2px solid #000000;
+}
+
+.campus-section .campus-info a{
+	position: absolute;
+	width: 427px;
+	height: 54px;
+	margin: -180px 0 0 650px;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 29px;
+	text-decoration-line: underline;
+	color: #303C6C;
+}
+
+.campus-section .campus-info a:hover{
+	transform: scale(1.01);
+	color: #b4dfe5;
+}
+
+.campus-section .campus-info p{
+	position: absolute;
+	width: 427px;
+	height: 54px;
+	margin: -120px 0 0 650px;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 30px;
+	align-items: center;
+	color: #303C6C;
+}
+
+.campus-section .student-more button{
+	position: relative;
+	margin: 60px 0 50px 460px;
+	height: 60px;
+	min-width: 230px;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 39px;
+	background: #fff;
+	border: 3px solid #303C6C;
+	border-radius: 6px;
+	color: #303c6c;
+}
+
+.campus-section .student-more button:hover{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);	
+	cursor: pointer;
+}
+
+/*-------------------
+Faculty News Section
+--------------------*/
+.news{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+#f-news h2{
+	position: relative;
+	width: 311px;
+	height: 48px;
+	font-weight: 900;
+	line-height: 39px;
+	color: #303C6C;
+}
+
+.news-img{
+	position: relative;
+	margin: 20px 10px 0 -10px;
+  	padding-bottom: 10px;
+  	overflow: hidden;
+  	float: left;
+}
+
+.news-img:hover{
+  	border: 1px solid #777;
+  	cursor: pointer;
+}
+
+.news-desc h6{
+  	text-align: left;
+  	font-size: 23px;
+  	font-weight: 600;
+  	line-height: 28px;
+  	padding: 10px 10px;
+  	color: #303c6c;
+}
+
+.news-desc h6:hover{
+	text-decoration-line: underline;
+}
+
+.news-date p{
+	padding: 0 10px;
+	font-size: 13px;
+  	text-align: left;
+  	font-weight: 600;
+  	color: #303c6c;
+}
+
+.upcoming-event h2{
+	position: relative;
+	width: 311px;
+	height: 48px;
+	font-weight: 900;
+	line-height: 39px;
+	color: #303C6C;
+}
+
+.upcoming-data{
+	position: relative;
+	margin-top: 20px;
+	width: 700px;
+}
+
+.upcoming-data table{
+	width: 95%;
+}
+
+.upcoming-data td{
+	border-top: 1px dotted #808080;
+}
+
+.upcoming-data .calender {
+	color: red;
+}
+
+.upcoming-data .calender:hover{
+	color: #f4976c;
+	cursor: pointer;
+}
+
+.upcoming-date{
+	font-size: 12px;
+	color: black;
+	float: justify;
+	padding: 18px 55px 18px 5px;
+}
+
+.upcoming-name{
+	font-size: 16px;
+	color: #303c6c;
+	float: justify;
+	font-weight: 700;
+	padding: 18px 0 18px 0;
+}
+
+/*-------------------
+    Video Section
+--------------------*/
+.video-section{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: 50px;
+}
+
+#myVideo {
+  	position: relative;
+  	min-width: 100%; 
+  	min-height: 100%;
+}
+
+.content {
+	position: absolute;
+	margin-top: -250px;
+  	background: rgba(0, 0, 0, 0.4);
+  	color: #fff;
+  	width: 100%;
+  	padding: 20px;
+}
+
+#myBtn {
+  	float: right;
+  	width: 50px;
+  	font-size: 18px;
+  	padding: 10px;
+  	border: 2px solid #000;
+  	border-radius: 5px;
+  	background: transparent;
+  	color: #fff;
+  	cursor: pointer;
+}
+
+#myBtn:hover {
+  	color: black;
+}
+
+/*-------------------
+  Footer-top Section
+--------------------*/
+.footer-top-section{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: 50px;
+}
+
+
+.footer-widget h4{
+	color: #303c6c;
+	font-weight: 600;
+	padding-left: 5px;
+	padding-bottom: 10px;
+}
+
+.footer-widget .social a{
+	padding: 10px 5px;
+}
+
+.footer-widget .social i{
+	font-size: 36px;
+	color: #303c6c;
+}
+
+.footer-widget .social i:hover{
+	color: #f4976c;
+}
+
+.footer-widget h5{
+	color: #303c6c;
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 10px;
+	padding-left: 25px;
+}
+
+.footer-widget li{
+	display: block;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.footer-logo{
+	float: right;
+	width: 200px;
+	margin-top: -30px;
+	margin-left: 100px;
+}
+
+/*footer section*/
+.copyright{
+	position: relative;
+	color: #303c6c;
+	font-size: 14px;
+	padding-top: 3px;
+	font-weight: 400px;
+}
+
+.report{
+	position: relative;
+	color: #f4976c;
+	font-size: 14px;
+	padding-bottom: 30px;
+}
+
+
+/*-----------------
+Login Form -hidden
+------------------*/
+
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 9999999;
+	left: 0;
+	top: 0;
+	width: 60%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+	padding-top: 60px;
+}
+
+.close{
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus{
+	color: black;
+	cursor: pointer;
+}
+
+.modal-content{
+	background-color: #fefefe;
+	margin: 5px auto;
+	border: 1px solid;
+	color: #888;
+	width: 60%;
+}
+
+.contact-title{
+	color: #303c6c;
+	text-align: center;
+	margin: 24px 0 0 0;
+}
+
+.container{
+	padding: 16px;
+}
+
+form{
+	border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=textarea], input[type=email]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 3px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+button{
+	background-color: #303c6c;
+	color: #fff;
+	padding: 10px 30px;
+	margin: 8px 0 8px 90px;
+	border: none;
+	cursor: pointer;
+	width: auto;
+}
+
+.cancelbtn{
+	background-color: #fff;
+	color: #303c6c;
+	border: 1px solid ;#303c6c;
+}
+
+/*-------------------
+   Responsive
+----------------*/
+
+@media (min-width: 1200px){
+.container{
+	max-width: 1175px;
+}
+}
+
+/*media screen: 992px */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+.info-section h2{
+	margin: -360px 0 0 40px;
+	width: 150px;
+	font-size: 35px;
+}
+
+.title-name img{
+	margin: 20px 0 0 40px;
+	width: 25%;
+	height: auto;
+}
+
+.info-section .info-content h2{
+	margin: -280px 0 0 130px;
+	font-size: 35px;
+}
+
+.info-section .info-content p{
+	margin: -140px 0 0 130px;
+	font-size: 18px;
+	line-height: 2;
+	width: 350px;
+}
+
+.option-section{
+	width: 100%;
+	height: auto;
+}
+
+.option-section .section-title{
+	margin-left: 10px;
+}
+
+.option-section .icon-bg{
+	width: 90px;
+	height: 90px;
+	font-size: 55px;
+}
+
+.option-section .icon-bg .fa-spin{
+	font-size: 50px;
+}
+
+.option-section .section-title h2{
+	font-size: 40px;
+	padding-top: 5px;
+}
+
+.campus-section .campus-info a{
+	margin: -180px 0 0 575px;
+	font-size: 26px;
+}
+
+.campus-section .campus-info p{
+	margin: -120px 0 0 575px;
+	width: 370px;
+	font-size: 15px;
+	line-height: 1.8;
+}
+
+.campus-section .student-more button{
+	margin: 50px 0 0 400px;
+}
+
+.upcoming-data table{
+	width: 74%;
+}
+
+#myVideo {
+  	width: 100%;
+ 	height: auto;
+}
+
+.content {
+	margin-top: -230px;
+}
+
+.content h1{
+	font-size: 35px;
+	padding-bottom: 10px;
+}
+
+.content p{
+	font-size: 14px;
+	line-height: 1.8;
+}
+}
+
+/*Tablet: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.site-logo{
+	margin-left: 20px;
+}
+
+.site-logo img{
+	width: 60%;
+}
+
+.nav-wrap{
+	display: none;
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	left: 0;
+	top: 100%;
+	box-shadow: 0 10px 50px rgba(93, 93, 93, 0.15);
+	-webkit-box-shadow: 0 10px 50px rgba(93, 93, 93, 0.15);
+}
+
+.main-menu {
+	float: none;
+	padding-top: 10px;
+	margin-left: -50px;
+}
+
+.main-menu li{
+	display: block;
+}
+
+.main-menu li a {
+	left: 0;
+	display: block;
+	color: #303c6c;
+	border-top: 1px solid #efefef;
+	padding: 13px 0 0 0;
+}
+
+.dropdown-content{
+  	margin-left: 150px;
+  	margin-top: -100px;
+}
+
+.nav-switch{
+	display: block;
+	right: 30px;
+	float: right;
+	font-size: 30px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.info-section{
+	width: 100%;
+	height: auto;
+}
+
+.info-section img{
+	margin-top: 66.5px;
+}
+
+.info-section h2{
+	margin: -266px 0 0 38px;
+	width: 100px;
+	font-size: 25px;
+}
+
+.title-name img{
+	margin: -30px 0 0 34px;
+	width: 12%;
+	height: auto;
+}
+
+.info-section .info-content h2{
+	margin: -210px 0 0 490px;
+	font-size: 25px;
+}
+
+.info-section .info-content p{
+	margin: -160px 0 0 490px;
+	font-size: 14px;
+	line-height: 1.7;
+	width: 270px;
+}
+
+.option-section{
+	width: 100%;
+	height: auto;
+}
+
+.option-section .section-title{
+	margin-left: 10px;
+}
+
+.option-section .icon-bg{
+	width: 70px;
+	height: 70px;
+	font-size: 45px;
+}
+
+.option-section .icon-bg .fa-spin{
+	font-size: 40px;
+}
+
+.option-section .section-title h2{
+	font-size: 35px;
+	margin-left: -40px;
+	padding-top: 3px;
+}
+
+
+.campus-section .student-more button{
+	margin: 50px 0 0 240px;
+}
+
+.campus-section .campus-info a{
+	margin: -160px 0 0 435px;
+	font-size: 20px;
+}
+
+.campus-section .campus-info p{
+	margin: -120px 0 0 435px;
+	width: 300px;
+	font-size: 12px;
+	line-height: 1.8;
+}
+
+.news{
+	width: 100%;
+	height: auto;
+}
+
+#myVideo {
+  	width: 100%;
+ 	height: auto;
+}
+
+.content {
+	margin-top: -230px;
+}
+
+.content h1{
+	font-size: 35px;
+	padding-bottom: 10px;
+}
+
+.content p{
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+.footer-top-section{
+	width: 100%;
+	height: auto;
+}
+
+.footer-widget h5{
+	margin-top: 20px;
+	margin-left: -20px;
+}
+
+.footer-widget li{
+	margin-left: -20px;
+}
+
+.footer-logo{
+	margin-top: -270px;
+	margin-left: 530px;
+}
+}
+
+/*Large Mobile: 767px */
+@media only screen and (max-width: 767px) {
+.header-section{
+	padding: 18px 10px;
+}
+
+.header-section img{
+	width: 60%;
+}
+
+.nav-wrap{
+	display: none;
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	left: 0;
+	top: 100%;
+	box-shadow: 0 10px 50px rgba(93, 93, 93, 0.15);
+	-webkit-box-shadow: 0 10px 50px rgba(93, 93, 93, 0.15);
+}
+
+.main-menu {
+	float: none;
+	padding-top: 10px;
+	margin-left: -50px;
+}
+
+.main-menu li{
+	display: block;
+}
+
+.main-menu li a {
+	left: 0;
+	display: block;
+	color: #303c6c;
+	border-top: 1px solid #efefef;
+	padding: 13px 0 0 0;
+}
+
+.dropdown-content{
+  	margin-left: -10px;
+  	margin-top: -100px;
+}
+
+.nav-switch{
+	display: block;
+	right: 30px;
+	float: right;
+	font-size: 30px;
+	color: #303c6c;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.info-section{
+	width: 100%;
+	height: auto;
+}
+
+.info-section img{
+	margin-top: 81px;
+}
+
+.info-section h2{
+	margin: -160px 0 0 25px;
+	width: 50px;
+	font-size: 14px;
+}
+
+.title-name img{
+	margin: -160px 0 0 25px;
+	width: 12%;
+	height: auto;
+}
+
+.info-section .info-content h2{
+	margin: -180px 0 0 300px;
+	font-size: 14px;
+}
+
+.info-section .info-content p{
+	margin: -175px 0 0 300px;
+	font-size: 8px;
+	line-height: 1.7;
+	width: 160px;
+}
+
+.option-section{
+	width: 100%;
+	height: auto;
+}
+
+.option-section .section-title{
+	margin-left: 10px;
+}
+
+.option-section .icon-bg{
+	width: 50px;
+	height: 50px;
+	font-size: 32px;
+}
+
+.option-section .icon-bg .fa-spin{
+	font-size: 30px;
+}
+
+.option-section .section-title h2{
+	font-size: 20px;
+	margin-left: -200px;
+	padding-top: 15px;
+}
+
+.campus-section{
+	width: 100%;
+	height: auto;
+}
+
+.campus-section .campus-img img{
+	width: 100%;
+	height: auto;
+	margin-left: -10px;
+}
+
+.campus-section .student-more button{
+	margin: 30px 0 0 80px;
+}
+
+.campus-section .campus-info a{
+	width: 200px;
+	margin: -80px 0 0 250px;
+	font-size: 13px;
+}
+
+.campus-section .campus-info p{
+	width: 205px;
+	margin: -50px 0 0 250px;
+	font-size: 8px;
+	line-height: 1.4;
+}
+
+.news{
+	width: 100%;
+	height: auto;
+}
+
+.upcoming-data table{
+	width: 68%;
+}
+
+.video-section{
+	width: 100%;
+	height: auto;
+}
+
+#myVideo {
+  	width: 100%;
+ 	height: auto;
+}
+
+.content {
+	margin-top: -200px;
+}
+
+.content h1{
+	font-size: 18px;
+}
+
+.content p{
+	font-size: 10px;
+}
+
+.footer-top-section{
+	width: 100%;
+	height: auto;
+}
+
+.footer-widget h4{
+	margin-top: 0;
+}
+
+.footer-widget h5{
+	margin-top: 20px;
+	margin-left: -20px;
+}
+
+.footer-widget li{
+	margin-left: -20px;
+}
+
+.footer-logo{
+	margin-top: -200px;
+	margin-left: 300px;
+}
+}

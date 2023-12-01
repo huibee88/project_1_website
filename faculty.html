@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FKI UMS</title>
+	<meta charset="utf-8">
+	<meta name="description" content="ums faculty of computing and informatics">
+	<meta name="keywords" content="ums, fki, computing, informatics">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Favicon (ico generator)--->
+	<link rel="shortcut icon" href="img/logo.png">
+
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200;400&display=swap" rel="stylesheet">
+
+	<!-- W3school fa fa icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script>
+	function myCalender() {
+	  	alert("Added to your calender!");
+	}
+
+	function mySubmit() {
+	  	alert("Successfully Submitted!");
+	}
+
+	var modal=document.getElementById('id01');
+	window.onclick = function(event){
+		if (event.target == modal) {
+			modal.style.display="none";
+		}
+	}
+	</script>
+
+</head>
+
+<!-- contactus form -->
+<div id="id01" class="modal">
+	<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Class Modal"> &times; </span>
+	<form class="modal-content" action="">
+		<div class="contact-title">
+			<h2>Contact Us</h2>
+		</div>		
+		<div class="container">
+			<label for="name"><b>Name</b></label>
+			<input type="text" placeholder="Enter your name" name="name" required>
+			<label for="email"><b>E-mail</b></label>
+			<input type="email" placeholder="Enter email address" name="email" required>
+			<label for="subject"><b>Subject</b></label>
+			<input type="text" placeholder="Enter your subject" name="subject" required>
+			<label for="message"><b>Message</b></label>
+			<input type="textarea" placeholder="Message" name="message" required>
+			<button type="submit" onclick="mySubmit()"> Submit </button>
+			<span><button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"> Cancel </button></span>
+		</div>
+	</form>
+</div>
+
+
+<body class="set-bg" data-setbg="img/background.png">
+<!-- Navigation Section ---> 
+	<header class="header-section">
+		<nav>
+			<a href="#" class="site-logo"><img src="img/site-logo.png" alt="logo"></a>
+		<div class="nav-switch">
+			<i class="fa fa-bars"></i>
+		</div>
+			<div class="nav-wrap">				
+				<ul class="main-menu">
+					<li><a href="#">Home</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">About Us</a>
+						<div class="dropdown-content">
+							<a href="http://fki.ums.edu.my/fki/about-us/" target="_blank">Our Profile</a>
+							<a href="http://fki.ums.edu.my/fki/dean-message/" target="_blank">Dean's Message</a>
+							<a href="http://fki.ums.edu.my/fki/vision-mission-objectives/" target="_blank">Vision, Mission & Objective</a>
+							<a href="https://fki.ums.edu.my/fki/facilities/" target="_blank">Facilities</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Team</a>
+						<div class="dropdown-content">
+							<a href="http://fki.ums.edu.my/fki/faculty-executive-2/" target="_blank">Faculty Executive</a>
+							<a href="http://fki.ums.edu.my/fki/academic-staff/" target="_blank">Academics</a>
+							<a href="http://fki.ums.edu.my/fki/administrative-staff/" target="_blank">Administrative</a>
+							<a href="http://fki.ums.edu.my/fki/student-representative/" target="_blank">Student Representative</a>
+						</div>
+					</li>
+					<li><a href="#" onclick="document.getElementById('id01').style.display='block'">Contact Us</a></li>
+					<li><a href="https://fki.ums.edu.my/fki/faq-2/" target="_blank">FAQ</a></li>
+				</ul>
+			</div>	
+		</nav>
+	</header>
+
+<!-- Info Section ---> 
+<section class="info-section">
+	<img src="img/info.png" class="logo-img">
+	<div class="row">
+		<div class="title-name col-lg-6">
+			<h2>Faculty of Computing and Informatics</h2>
+			<img src="img/logo2.png" alt="logo">
+		</div>
+		<div class="info-content col-lg-6 pr-0">
+			<h2>Change the World</h2>
+			<p>At Faculty of Computing and Informatics, students learn from world-renowned experts, engage in innovative research, realize their entrepreneurial spirit, and expand their knowledge beyond the classroom.</p>
+		</div>		
+	</div>
+</section>
+
+<!-- Option Section -->
+<section class="option-section">
+	<div class="container">
+		<div class="section-title">
+			<div class="icon-bg">
+				<i class="fa fa-gear fa-spin"></i>
+				<h2>Find Your Program. Pursue Your Passions.</h2>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-4 col-md-6 feature-item item-box">
+				<a href="https://fki.ums.edu.my/fki/programmes-list/" target="_blank">
+				<div class="ft-icon">
+					<i class="fa fa-group" style="font-size:48px"></i>
+				</div>
+				<h4>Undergraduate</h4>
+				<p>See all FKI undergraduate fields of study</p>
+				</a>
+			</div>
+
+			<div class="col-lg-4 col-md-6 feature-item item-box">
+				<a href="https://fki.ums.edu.my/fki/postgraduate/" target="_blank">
+				<div class="ft-icon">
+					<i class="fa fa-graduation-cap" style="font-size:48px"></i>
+				</div>
+				<h4>Postgraduate</h4>
+				<p>Master's and doctoral programs at FKI</p>
+				</a>
+			</div>
+
+			<div class="col-lg-4 col-md-6 feature-item item-box">
+				<a href="http://fki.ums.edu.my/fki/research-grp/" target="_blank">
+				<div class="ft-icon">
+					<i class="fa fa-search" style="font-size:48px"></i>
+				</div>
+				<h4>Research</h4>
+				<p>Explore FKI research</p>
+				</a>
+			</div>
+
+			<div class="col-lg-4 col-md-6 feature-item item-box">
+				<a href="https://fki.ums.edu.my/fki/alumni/" target="_blank">
+				<div class="ft-icon">
+					<i class="fa fa-university" style="font-size:48px"></i>
+				</div>
+				<h4>Alumni</h4>
+				<p>The graduates of UMS</p>
+				</a>
+			</div>
+
+			<div class="col-lg-4 col-md-6 feature-item item-box">
+				<a href="https://www.ums.edu.my/v5/en/departments" target="_blank">
+				<div class="ft-icon">
+					<i class="fa fa-building-o" style="font-size:48px"></i>
+				</div>
+				<h4>Department</h4>
+				<p>Explore all departments, programs, centers and institutes</p>
+				</a>
+			</div>
+
+			<div class="col-lg-4 col-md-6 feature-item item-box">
+				<a href="https://fki.ums.edu.my/fki/admission/" target="_blank">
+				<div class="ft-icon">
+					<i class="fa fa-wpforms" style="font-size:48px"></i>
+				</div>
+				<h4>Admissions</h4>
+				<p>Information regarding applications for courses</p>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Campus section -->
+<section class="campus-section">
+	<div class="container">
+		<div class="campus-img">
+			<img src="img/3.png" alt="campus">
+			<div class="campus-info">
+				<a href="https://www.ums.edu.my/v5/en/about-ums-mobile/why-ums-mobile" target="_blank">Take an inside look at life on campus</a>
+				<p>Explore UMS’s housing and dining options, including the newest additions to the whole Campus.</p>
+			</div>
+		</div>
+
+		<div class="student-more">
+			<a href="https://www.youtube.com/watch?v=bcRBehlLwuo" target="_blank">
+			<button>EXPLORE MORE STUDENTS STORIES</button>
+			</a>
+		</div>
+	</div>
+</section>
+
+<!-- new & upcoming event section --->
+
+<section class="news">
+	<div class="container">
+		<div class="row">
+			<!-- news -->
+			<div class="col-lg-6">
+				<div id="f-news">
+					<h2>FACULTY NEWS</h2>
+				</div>			
+				<div class="col-lg-6 news-img">
+					<a href="https://www.business-standard.com/article/companies/facebook-pulls-the-plug-on-podcast-business-after-a-year-report-122050400009_1.html#:~:text=Podcasts%20won't%20be%20available,audio%20feature%2C%20shut%20audio%20hub&text=Facebook%20is%20pulling%20out%20of,media%20service%20starting%20June%203." target="_blank">
+						<img src="img/news1.jpg" alt="news1">
+						<div class="news-desc"><h6>Facebook’s Removing Support for Podcasts, Just 10 Months After Launching New Podcast Features</h6></div>
+					</a>
+					<div class="news-date"><p>Saturday, May 21</p></div>
+				</div>
+				<div class= "col-lg-6 news-img news-res">
+					<a href="https://www.socialmediatoday.com/news/tips-and-insights-to-help-spot-misinformation-and-fake-news-infographic/622995/" target="_blank">
+						<img src="img/news2.jpg" alt="news2">
+						<div class="news-desc"><h6>Tips and Insights to Help You Spot All the Misinformation and Fake News in Social Media</h6></div>
+					</a>
+					<div class="news-date"><p>Monday, May 30</p></div>
+				</div>				
+			</div>
+
+			<!-- upcoming event -->
+			<div class="col-lg-6">			
+				<div class="upcoming-event">
+					<h2>UPCOMING EVENTS</h2>
+				</div>	
+				<div class="upcoming-data">
+					<table>
+						<tr>
+							<td class="upcoming-date">May 2 - 10, 2022</td>
+							<td class="upcoming-name">Midterm Exams</td>
+							<td class="calender"><a onclick="myCalender()"><i class="fa fa-calendar-plus-o" style="font-size:24px"></i></a></td>
+						</tr>
+						<tr>
+							<td class="upcoming-date">May 10, 2022</td>
+							<td class="upcoming-name">Midterm Ends</td>
+							<td class="calender"><a onclick="myCalender()"><i class="fa fa-calendar-plus-o" style="font-size:24px"></i></a></td>
+						</tr>
+						<tr>
+							<td class="upcoming-date">May 14, 2022</td>
+							<td class="upcoming-name">Alumni Day</td>
+							<td class="calender"><a onclick="myCalender()"><i class="fa fa-calendar-plus-o" style="font-size:24px"></i></a></td>
+						</tr>
+						<tr>
+							<td class="upcoming-date">May 15, 2022</td>
+							<td class="upcoming-name">College Graduation Ceremony</td>
+							<td class="calender"><a onclick="myCalender()"><i class="fa fa-calendar-plus-o" style="font-size:24px"></i></a></td>
+						</tr>
+						<tr>
+							<td class="upcoming-date">May 16, 2022</td>
+							<td class="upcoming-name">May Grad Deadline: All Grades Posted and Obligations Met</td>
+							<td class="calender"><a onclick="myCalender()"><i class="fa fa-calendar-plus-o" style="font-size:24px"></i></a></td>
+						</tr>						
+						<tr>
+							<td class="upcoming-date">May 25, 2022</td>
+							<td class="upcoming-name">University Commencement</td>
+							<td class="calender"><a onclick="myCalender()"><i class="fa fa-calendar-plus-o" style="font-size:24px"></i></a></td>
+						</tr>
+					</table>
+				</div>															
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- video -->
+
+<section class="video-section">
+	<a href="https://youtu.be/xMObZFIOgoM" target="_blank"><video autoplay muted loop id="myVideo">
+  		<source src="img/fki.mp4" type="video/mp4">
+  		Your browser does not support HTML5 video.
+	</video></a>
+	<div class="content">
+  		<h1>Faculty of Computing and Informatics</h1>
+  		<p>The Faculty of Computing and Informatics offers a stellar education that positions its students as the best of the best and trains them to be future leaders. Help us ensure that a Hopkins education is attainable to every deserving student, regardless of financial ability.</p>
+  		<button id="myBtn" onclick="myFunction()"></button>
+	</div>
+</section>
+
+<!-- Footer Top -->
+<section class="footer-top-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="footer-widget">
+					<div class="social">
+						<h4>Connect with Us</h4>
+						<a href="https://www.facebook.com/fki.ums/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+						<a href="https://www.instagram.com/pmfki_umskal/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.youtube.com/channel/UC2K_hI68hfYuvEHq7yW3V2Q" target="_blank"><i class="fa fa-youtube-play"></i></a>
+						<a href="https://twitter.com/ums_ecocampus?lang=en" target="_blank"><i class="fa fa-twitter-square"></i></a>
+					</div>									
+				</div>				
+			</div>
+
+			<div class="col-lg-4 col-md-6">
+				<div class="footer-widget">
+					<h5>Faculty of Computing and Informatics</h5>
+					<div class="row">
+						<ul>
+							<li>Universiti Malaysia Sabah,</li>	
+							<li>	Jalan UMS, </li>	
+							<li>	88400 Kota Kinabalu, Sabah</li>	
+							<br>
+							<li>Tel :087-503000 Ext: 410300 (Labuan), </li>
+							<li>088-320000 Ext: 210600 (Kota Kinabalu)</li>
+							<li>Fax :087-503114</li>                              
+							<li>Email: pejfki[at]ums.edu.my</li>
+						</ul>			
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="footer-widget">
+					<div class="footer-logo">
+						<img src="img/logo2.png">
+					</div>									
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+<footer>
+	<div class="container">
+		<div class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Universiti Malaysia Sabah Faculty of Computing and Informatics</div>
+		<div class="report">Report Accessibility Issues and Get Help</div>
+	</div>
+</footer>
+
+<!-- Javascript & JQuery ---->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/circle-progress.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
